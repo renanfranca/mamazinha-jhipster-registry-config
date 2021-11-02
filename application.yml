@@ -1,0 +1,15 @@
+# ===================================================================
+# Mamazinha Baby Care Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: JHipster Registry config server
+    status: Connected to the JHipster Registry config server, using https://github.com/renanfranca/mamazinha-jhipster-registry-config !
+
+# Default JWT secret token (to be changed in production!)
+jhipster:
+    security:
+        authentication:
+            jwt:
+                base64-secret: ZmFjOTZlYTUxYTJiNDUxYzEyZGQxZmY2YmE1ZDMxN2ZlZDY3NGMyOTcwNzc4NDJkOWExMDE4MDZjMmY3NWZjZTQ2MWNkMjIyOWMwZmI0OGQxMTBlM2I3MDZmNDhkYjdlMmUyMzlkMDNhNGI5ZGQzNDEwZDJmZTcyOWExNWNlMjkwNTM4ZDEwOQ==
